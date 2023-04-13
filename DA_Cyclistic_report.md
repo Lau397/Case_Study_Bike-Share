@@ -24,7 +24,7 @@ What we're trying to solve is that we want Cyclistic to become more successful b
 The data selected is from February 2023 available at: https://divvy-tripdata.s3.amazonaws.com/index.html
 In which the trip data such as; started_at, ended_at, start_station_id, end_station_id, geolocation, among others is registered in an Excel file.
 
-The data seems reliable in a way that values make sense and that, generally, it is consistent in each column of data registered. The data is also very recent at the moment of writing this, and the information registered in the file is easy to understand.
+The data seems reliable in a way that values make sense and that, generally, it is consistent in each column of data registered. The data is also very recent at the moment of writing this and the information registered in the file is easy to understand.
 
 ## Data manipulation
 
