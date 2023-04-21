@@ -28,15 +28,23 @@ The data seems reliable in a way that values make sense and that, generally, it 
 
 ## Data manipulation
 
-### 1. Organizing data
-For the data manipulation part, I started to take a look at the data provided initially by checking for duplicated data and later on, the columns with data that were not considered necessary for the analysis such as the location (station names) were removed. The type of data for each column was also verified making sure that made sense for all of them. 
+### 🌟**Organizing data**
+The data provided was examined initially by checking general statistics, size of the data frame, and the columns that are given. The latter were studied to determine if all of them are going to be useful in the data analysis process. 
 
-In the case where the data type was not correct then type casting was excuted to assign the correct type to that column, which was the case of the time columns, such as; started_at, ended_at. Finally, the format of the datetime columns was revised to see what math operations can be executed and what insights are possible to get from this data.
+The type of data for each column, making sure that the information in them made sense for all of them. 
 
-### 2. Data cleaning
-This step was short since most of the data was good in terms of consistency. The presence of other special characters in the data, was not the case for this dataframe, as in the previous step we verified that the data type was consistent for all the columns. 
+In the cases where the data type was not correct then type casting was excuted to assign the correct type to that column, which was the case of the time columns, such as; started_at, ended_at. Finally, the format of the datetime columns was revised to see what math operations can be executed and what insights are possible to get from this data.
 
-In this data cleaning part, the NaN values were reviewed, having found only 183 of these in two columns that are going to be considered in the analysis: ending latitude and ending longitude. For these existing NaN, I decided to keep them all since I considered this a very small percentage (0.07%) out of the total data available and thought it was best to keep them and assign them their repective mean value.
+### 🌟**Data cleaning**
+Most of the data was good in terms of consistency. The presence of other special characters in the data, was not the case for this dataframe, as in the previous step we verified that the data type was consistent for all the columns. 
+
+The presence of duplicated data was revised and later on, the columns with data that were not considered relevant for the analysis such as the location (station names), were removed. 
+
+Same thing for the NaN values, these were checked in the dataframe, having found only 183 of these in two columns that are going to be considered in the analysis: ending latitude and ending longitude. For these existing NaN, it was decided to keep them all since these were considered a very small percentage (0.07%) out of the total data available, so it was best to keep them and assign them their repective mean value instead.
+
+
+
+
 
 
 

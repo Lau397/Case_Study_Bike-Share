@@ -6,7 +6,7 @@ The notebook contains my analysis of this data, having a data cleaning process d
 
 No need to run any Python script. 
 
-    - DA_Cyclistic.ipynb is the Jupyter Notebook that contains the data analysis 
+    - DA_Cyclistic.ipynb is the Jupyter Notebook that contains the data analysis with the description of the process there
     - DA_Cyclistic_report.md is the project final report
 
 
