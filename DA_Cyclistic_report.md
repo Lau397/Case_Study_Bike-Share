@@ -47,7 +47,9 @@ Most of the data was good in terms of consistency. The presence of other special
 
 The presence of duplicated data was revised and later on, the columns with data that were not considered relevant for the analysis such as the location (station names), were removed. 
 
-The NaN values, these were checked in the dataframe, having found only 183 of these in two columns that are going to be considered in the analysis: ending latitude and ending longitude. For these existing NaN, it was decided to keep them all since these were considered a very small percentage (0.07%) out of the total data available, so it was best to keep them and assign them their repective mean value instead.
+The NaN values, these were checked in the dataframe, having found only 183 of these in two columns that are going to be considered in the analysis: ending latitude and ending longitude. For these existing NaN, it was decided to keep them all since these were considered a very small percentage (0.07%) out of the total data available, so it was best to keep them and assign them their respective mean value instead.
+
+*
 
 
 
@@ -56,7 +58,7 @@ The NaN values, these were checked in the dataframe, having found only 183 of th
 
 
 
-
-
-
-
+# **Conclusions**
+    1.
+    2.
+    3. When the statistics were described, the majority of the users either annual members and casual users tend to use the service for no longer than 1 day, except for a few cases. This may tell us as well that customers have a single-ride or full-day trips more often.
