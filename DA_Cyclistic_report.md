@@ -1,4 +1,4 @@
-# **Study Case: Cyclistic**
+# **Study Case: Cyclistic** 📖
 
 *Company's description:* Cyclistic is a bike-share company in Chicago that'd like to grow its success through maximizing the number of annual memberships.
 
@@ -9,23 +9,33 @@ As part of Cyclistic's marketing strategy they created flexible pricing plans:
 
 Customers who purchase single-ride or full-day passes are referred to as **casual riders**. Customers who purchase annual memberships are **Cyclistic** members.
 
-# Business task
+# **Business task** 💼
 ### What we're trying to solve is the following Cyclistic's goal: ***Design marketing strategies aimed at converting casual riders into annual members.***
  
- The marketing analyst team needs to better understand how annual members and casual riders differ, why
+ * The marketing analyst team needs to better understand how annual members and casual riders differ, why
  casual riders would buy a membership, and how digital media could affect their marketing tactics. The manager and their team are interested in analyzing the Cyclistic historical bike trip data to identify trends.
 
-# **ASK**
+# **1. ASK**
 What we're trying to solve is that we want Cyclistic to become more successful by making casual riders more interested in becoming annual members.
 * How do annual members and casual riders use Cyclistic bikes diferently?
 
-# **PREPARE**
+# **2. PREPARE**
 ## Data sources
 The data selected is from March 2023 available at: https://divvy-tripdata.s3.amazonaws.com/index.html
 In which the trip data such as; started_at, ended_at, start_station_id, end_station_id, geolocation, among others is registered in an Excel file.
 
 The data seems reliable in a way that values make sense and that, generally, it is consistent in each column of data registered. The data is also very recent at the moment of writing this and the information registered in the file is easy to understand.
 
+To make sure the data is going to be ready to analyze, a data cleaning process will be done.
+
+To work on this project the following tools are used:
+* Jupyter Notebook
+* Anaconda: Visual Studio
+* Python version: 3.9.13
+* Python libraries that will be installed as the Data Analysis progresses
+* Git/GitHub to save the project remotely
+
+# **3. PROCESS**
 ## Data manipulation
 
 ### 🌟**Organizing data**
@@ -49,7 +59,29 @@ The presence of duplicated data was revised and later on, the columns with data 
 
 The NaN values, these were checked in the dataframe, having found only 183 of these in two columns that are going to be considered in the analysis: ending latitude and ending longitude. For these existing NaN, it was decided to keep them all since these were considered a very small percentage (0.07%) out of the total data available, so it was best to keep them and assign them their respective mean value instead.
 
-*
+* Further data manipulation included as well calculating the time length of each customer ride registered. The difference between the columns 'started_at' and 'ended_at' was transformed in seconds and then, to the same units, minutes. 
+* GeoPy a Python library was installed and imported to obtained the distance for each ride in order to study it further along the data analysis. This was possible thanks to the longitude and latitude values present in the data frame, using 'geopy.distance.geodesic'.
+* Columns that were no longer going to be used after doing any of the previous processes mentioned were dropped, and new columns with the latest results were created.
+
+# **4. ANALYZE**
+## Analysis summary 🤓
+The analysis began with a data study as detailed as possible, through the statistics after any transformations and the plots by the end of the Jupyter Notebook. 
+* First, the categorical data was identified. Columns: rideable_type and member_casual. The stations names, after taking a look at the information there, it was explicit that there was no pattern for these names, as these vary a lot and are different points within the city, so these were not considered and dropped from the dataframe.
+* The amount of unique values of the categorical data was:
+    - For the rideable_type column: electric_bike 148575 classic_bike ➡ 107083 and docked_bike ➡ 3020
+    - For the member_casual column: member ➡ 196477 (~76%) and casual ➡ 62201 (~24%)
+* No duplicated data was found.
+* Two columns were not in the correct data type: 'started at' and 'ended at'. These were changed to the correct datetime type.
+* NaN values were checked in the dataframe for the columns end_lat and end_lng, these NaN values were replaced by the mean of each column.
+* Comparisons were made through statistics:
+
+### 4.1. Comparing between type of customers versus time length
+    - On average, casual users have a traveled time of 00h 21m 24.74s and annual members 00h 09m 46.51s
+    - On average, casual users have a bigger traveled time length by two times (~21 mins), compared to annual members (~10 mins). This could be depending on the distance traveled and/or the type of bike they used.
+    - Related to the previous result, on average, casual and annual members use the service for less than a day.
+### 4.2. Comparing between type of bikes versus time length
+    - On average, the traveled time length is 00h 09m 46.51s for electric bikes, 00h 14m 18.06s for classic bikes and 02h 12m 22.62s for docked bikes.
+### 4.3. 
 
 
 
@@ -58,7 +90,11 @@ The NaN values, these were checked in the dataframe, having found only 183 of th
 
 
 
-# **Conclusions**
+
+
+
+
+# **Conclusions** 🖊
     1.
     2.
     3. When the statistics were described, the majority of the users either annual members and casual users tend to use the service for no longer than 1 day, except for a few cases. This may tell us as well that customers have a single-ride or full-day trips more often.
