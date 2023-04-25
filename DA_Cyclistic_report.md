@@ -37,7 +37,7 @@ To work on this project the following tools are used:
 * Python libraries that will be installed as the Data Analysis progresses
 * Git/GitHub to save the project remotely
 
-# **3. PROCESS **
+# **3. PROCESS**
 ## Data manipulation 📚
 
 For this step, the following Python libraries were used (in that order) to accomplish further analysis of the data:          
@@ -143,9 +143,18 @@ Here, 0 is Monday and 6 is Sunday
 At this point, we can tell a difference already between the type of customers and the types of bikes which is the main element in Cyclistic's service. Besides that, we have now more idea about the customers' preferences and needs when it comes to use Cyclistic, being that, analyzing other features such as the day of the week, month, and time of the day. All of these discoveries will be relevant to stablish the differences that can help casual users improve their experience in Cyclistic by becoming annual members.
 
 # **5. SHARE**
-For this data, histograms and bar graphs were chosen as the type of plots that will represent the results, due to the fact that we have categorical features and is easier to make comparisons between features with this type of plot.
+For this data, histograms and bar graphs were chosen as the type of plots that will represent the results, due to the fact that we have categorical features and is easier to make comparisons between features with this type of plot. 
 
+## Key findings 🔍
+![alt text](images\users_freq_users.png)
+* The amount of the data registered in the dataframe for annual members is greater than for the casual riders, which is 76% and 24% repectively.
 
+![alt text](images\daytime_freq_bothusers.png)
+* Annual members take their trips either in the morning or afternoon more frequently. Casual riders tend to mantain the usage of Cyclistic's service in the morning, afternoon and evening.
+
+![alt text](images\bike_freq_bothusers.png)
+* The electric bike is the most used out of the 3 possible types offered. Docked bike has only been used by casual riders.
+* Annual members have a shorter traveled time compared to the casual members.
 
 
 # **6. ACT**
@@ -160,3 +169,6 @@ For this data, histograms and bar graphs were chosen as the type of plots that w
 **✔**  
 **✔**  
 **3.**  When the statistics were described, the majority of the users either annual members and casual users tend to use the service for no longer than 1 day, except for a few cases. This may tell us as well that customers have a single-ride or full-day trips more often.
+*The docked bike takes longer than the classic bike. Being the electric the...
+*On average, casual users have a bigger traveled time length by two times (~21 mins), compared to annual members (~10 mins). This could be depending on the distance traveled and/or the type of bike they used.
+*Related to the previous result, on average, casual and annual members use the service for less than a day.
