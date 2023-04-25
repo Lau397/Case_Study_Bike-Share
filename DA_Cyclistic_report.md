@@ -1,13 +1,15 @@
 # **Study Case: Cyclistic** 🚲📖 
 
-*Company's description:* Cyclistic is a bike-share company in Chicago that'd like to grow its success through maximizing the number of annual memberships.
+This is the report for the data analysis project, a company named Cyclistic.
+
+***Company's description:*** *Cyclistic is a bike-share company in Chicago that'd like to grow its success through maximizing the number of annual memberships.*
 
 As part of Cyclistic's marketing strategy they created flexible pricing plans:
  - single-ride passes
  - full-day passes
  - annual memberships  
 
-Customers who purchase single-ride or full-day passes are referred to as **casual riders**. Customers who purchase annual memberships are **Cyclistic** members.
+Customers who purchase single-ride or full-day passes are referred to as **casual riders**. Customers who purchase annual memberships are **Cyclistic members**.
 
 # **Business task** 💼
 ### What we're trying to solve is the following Cyclistic's goal: ***Design marketing strategies aimed at converting casual riders into annual members.***
@@ -20,7 +22,7 @@ What we're trying to solve is that we want Cyclistic to become more successful b
 * How do annual members and casual riders use Cyclistic bikes diferently?
 
 # **2. PREPARE**
-## Data sources
+## Data sources 🗂
 The data selected is from March 2023 available at: https://divvy-tripdata.s3.amazonaws.com/index.html
 In which the trip data such as; started_at, ended_at, start_station_id, end_station_id, geolocation, among others is registered in an Excel file.
 
@@ -35,8 +37,8 @@ To work on this project the following tools are used:
 * Python libraries that will be installed as the Data Analysis progresses
 * Git/GitHub to save the project remotely
 
-# **3. PROCESS**
-## Data manipulation
+# **3. PROCESS **
+## Data manipulation 📚
 
 For this step, the following Python libraries were used (in that order) to accomplish further analysis of the data:          
     ✔ Pandas   
@@ -140,9 +142,13 @@ Here, 0 is Monday and 6 is Sunday
 
 At this point, we can tell a difference already between the type of customers and the types of bikes which is the main element in Cyclistic's service. Besides that, we have now more idea about the customers' preferences and needs when it comes to use Cyclistic, being that, analyzing other features such as the day of the week, month, and time of the day. All of these discoveries will be relevant to stablish the differences that can help casual users improve their experience in Cyclistic by becoming annual members.
 
+# **5. SHARE**
+For this data, histograms and bar graphs were chosen as the type of plots that will represent the results, due to the fact that we have categorical features and is easier to make comparisons between features with this type of plot.
 
 
 
+
+# **6. ACT**
 
 
 
@@ -151,6 +157,6 @@ At this point, we can tell a difference already between the type of customers an
 
 
 # **Conclusions** 🖊
-    1.
-    2.
-    3. When the statistics were described, the majority of the users either annual members and casual users tend to use the service for no longer than 1 day, except for a few cases. This may tell us as well that customers have a single-ride or full-day trips more often.
+**✔**  
+**✔**  
+**3.**  When the statistics were described, the majority of the users either annual members and casual users tend to use the service for no longer than 1 day, except for a few cases. This may tell us as well that customers have a single-ride or full-day trips more often.
