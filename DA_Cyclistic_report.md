@@ -38,6 +38,13 @@ To work on this project the following tools are used:
 # **3. PROCESS**
 ## Data manipulation
 
+For this step, the following Python libraries were used (in that order) to accomplish further analysis of the data:          
+    ✔ Pandas   
+    ✔ Datetime  
+    ✔ GeoPy        
+    ✔ Matplotlib         
+    ✔ NumPy    
+
 ### 🌟**Organizing data**
 The data provided was examined initially by checking general statistics and size of the dataframe. The Cyclistic's dataframe provided was found to have 258678 rows and 13 columns in total.
 
@@ -50,6 +57,9 @@ In the cases where the data type was not correct then type casting was excuted t
 Two aditional columns were created for further analysis using the information in the original dataframe: 
 - The column 'time_of_day' to know what time of the day the users used Cyclistic's service most often.
 - The column 'day_of_week' to know what day of the week is more frequent by customers.
+- The column 'day_of_month' to find how frequent the customers are during the month.
+
+These three columns were obtained using the 'started_at' column.
 
 Other features from the dataframe were identified:
 - The column 'rideable_type' has 3 different types of bikes: electric, classic and docked.
@@ -72,12 +82,13 @@ The NaN values, these were checked in the dataframe, having found only 183 of th
 The analysis began with a data study as detailed as possible, through the statistics after any transformations and the plots by the end of the Jupyter Notebook. 
 * First, the categorical data was identified. Columns: rideable_type and member_casual. The stations names, after taking a look at the information there, it was explicit that there was no pattern for these names, as these vary a lot and are different points within the city, so these were not considered and dropped from the dataframe.
 * The amount of unique values of the categorical data was:
-    - For the rideable_type column: electric_bike 148575 classic_bike ➡ 107083 and docked_bike ➡ 3020
-    - For the member_casual column: member ➡ 196477 (~76%) and casual ➡ 62201 (~24%)
+    - For the rideable_type column: electric_bike ➡ 148575, classic_bike ➡ 107083, and docked_bike ➡ 3020
+    - For the member_casual column: member ➡ 196477 (~76%), and casual ➡ 62201 (~24%)
 * No duplicated data was found.
 * Two columns were not in the correct data type: 'started at' and 'ended at'. These were changed to the correct datetime type.
 * NaN values were checked in the dataframe for the columns end_lat and end_lng, these NaN values were replaced by the mean of each column.
-* Comparisons were made through statistics:
+
+Comparisons were made through statistics of features. The results are as follows:
 
 ### **4.1. Comparing between type of customers versus time length***
 * On average, customers have a traveled time of:
@@ -88,17 +99,46 @@ The analysis began with a data study as detailed as possible, through the statis
     - Electric bikes = 09m 46.51s
     - Classic bikes = 14m 18.06s
     - Docked bikes = 02h 12m 22.62s
-### **4.3. Comparing between type of customers versus distance traveled**
+### **4.3. Comparing between type of customers versus time of the day***
+* The most frequent time of the day where customers used Cyclistic:
+    - Casual users = Afternoon 
+    - Annual members = Morning
+### **4.4. Comparing between type of bikes versus time of the day**
+* The most frequent time of the day where the different types of bike were used:
+    - Electric bikes = Morning
+    - Classic bikes = Morning
+    - Docked bikes = Afternoon
+### **4.5. Comparing between type of customers versus day of the week***
+Here, 0 is Monday and 6 is Sunday
+* On average, the day of the week where each bike is more frequent to be used by customers is:
+    - Casual users = 2.96   (Thursday)
+    - Annual members = 2.97 (Thursday)
+### **4.6. Comparing between type of bikes versus day of the week**
+Here, 0 is Monday and 6 is Sunday
+* On average, the day of the week where each bike is more frequent to be used by customers is:
+    - Electric bikes = 2.75 (Thursday)
+    - Classic bikes = 2.71  (Thursday)
+    - Docked bikes = 3.17   (Thursday)
+### **4.7. Comparing between type of customers versus day of the month***
+* On average, the day of the month where each bike is more frequent to be used by customers is:
+    - Casual users = 16.45   (By the middle of the month, 3rd week)
+    - Annual members = 16.31 (By the middle of the month, 3rd week)
+### **4.8. Comparing between type of bikes versus day of the month**
+* On average, the day of the month where each bike is more frequent to be used by customers is:
+    - Electric bikes = 16.55 (By the middle of the month, 3rd week)
+    - Classic bikes = 16.04  (By the middle of the month, 3rd week)
+    - Docked bikes = 16.73   (By the middle of the month, 3rd week)            
+### **4.9. Comparing between type of customers versus distance traveled**
 * On average, customer have a distance traveled of:
     - Casual users = 1.78km
     - Annual members = 1.85km
-### **4.4. Comparing between type of bikes versus distance traveled**
+### **4.10. Comparing between type of bikes versus distance traveled**
 * On average, the distance traveled length for each bike is:
     - Electric bikes = 1.92km
     - Classic bikes = 1.71km
     - Docked bikes = 2km
 
-At this point, we can tell a difference already between the type of customers and the types of bikes which is the main element in Cyclistic's service. All of these discoveries will be relevant to stablish the differences that can help casual users improve their experience in Cyclistic by becoming annual members.
+At this point, we can tell a difference already between the type of customers and the types of bikes which is the main element in Cyclistic's service. Besides that, we have now more idea about the customers' preferences and needs when it comes to use Cyclistic, being that, analyzing other features such as the day of the week, month, and time of the day. All of these discoveries will be relevant to stablish the differences that can help casual users improve their experience in Cyclistic by becoming annual members.
 
 
 
