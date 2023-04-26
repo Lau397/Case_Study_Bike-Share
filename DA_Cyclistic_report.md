@@ -113,13 +113,13 @@ Comparisons were made through statistics of features. The results are as follows
 ### **4.5. Comparing between type of customers versus day of the week***
 Here, 0 is Monday and 6 is Sunday
 * On average, the day of the week where each bike is more frequent to be used by customers is:
-    - Casual users = 2.96   (Thursday)
-    - Annual members = 2.97 (Thursday)
+    - Casual users = 2.96   (Wednesday~Thursday)
+    - Annual members = 2.97 (Wednesday~Thursday)
 ### **4.6. Comparing between type of bikes versus day of the week**
 Here, 0 is Monday and 6 is Sunday
 * On average, the day of the week where each bike is more frequent to be used by customers is:
-    - Electric bikes = 2.75 (Thursday)
-    - Classic bikes = 2.71  (Thursday)
+    - Electric bikes = 2.75 (Wednesday~Thursday)
+    - Classic bikes = 2.71  (Wednesday~Thursday)
     - Docked bikes = 3.17   (Thursday)
 ### **4.7. Comparing between type of customers versus day of the month***
 * On average, the day of the month where each bike is more frequent to be used by customers is:
@@ -148,15 +148,32 @@ For this data, histograms and bar graphs were chosen as the type of plots that w
 ## Key findings 🔍
 
 ![Image](/images/users_freq_users.png)
-* The amount of the data registered in the dataframe for annual members is greater than for the casual riders, which is 76% and 24% repectively.
+* **To consider: The amount of the data registered in the dataframe for annual members is greater than for the casual riders, which is 76% and 24% repectively.**
 
 ![Image](/images/daytime_freq_bothusers.png)
 * Annual members take their trips either in the morning or afternoon more frequently. Casual riders tend to mantain the usage of Cyclistic's service in the morning, afternoon and evening.
 
 ![Image](/images/bike_freq_bothusers.png)
 * The electric bike is the most used out of the 3 possible types offered. Docked bike has only been used by casual riders.
+
+![Image](/images/daymonth_freq_bothusers.png)
+* The last day of the month, on average, has a higher frequency for both type of customers. For the other days of the month it mantains a constant behaviour with some peaks by the beginning of the month. 
+In general, however, we can tell that the usage remains constant, except for the last day of the month.
+
+![Image](/images/dayweek_freq_bothusers.png)
+* We can see that the peak day is around the middle of the week, wednesday. Thursday is also very close to the highest peak, for both, annual members and casual.  
+
+![Image](/images/distance_freq_bothusers.png)
+* Both type of customers travel a distance of ~2km or less.
+
+![Image](/images/timelen_bothusers.png)
 * Annual members have a shorter traveled time compared to the casual members.
 
+![Image](/images/timelen_vs_bikes_annual.png)
+* For the trips registered for the annual members, the time length for electric bikes was 8hrs in total, whilst classic bikes took around 26hrs. That is, a ratio of 3.25hrs.
+
+![Image](/images/timelen_vs_bikes_casual.png)
+* For the trips registered for the casual customers, the time length for docked bikes was 283hrs in total, whilst classic bikes took around 28hrs and electric bikes . That is, a ratio of 3.25hrs.
 
 # **6. ACT**
 
