@@ -146,6 +146,7 @@ At this point, we can tell a difference already between the type of customers an
 For this data, histograms and bar graphs were chosen as the type of plots that will represent the results, due to the fact that we have categorical features and is easier to make comparisons between features with this type of plot. 
 
 ## Key findings 🔍
+
 ![Image](images\users_freq_users.png)
 * The amount of the data registered in the dataframe for annual members is greater than for the casual riders, which is 76% and 24% repectively.
 
