@@ -147,7 +147,7 @@ For this data, histograms and bar graphs were chosen as the type of plots that w
 
 ## Key findings 🔍
 
-![Image](\images\users_freq_users.png)
+![Image](https://github.com/Lau397/DACaseStudy_Cyclistic/blob/main/images/users_freq_users.png)
 * The amount of the data registered in the dataframe for annual members is greater than for the casual riders, which is 76% and 24% repectively.
 
 ![Image](\images\daytime_freq_bothusers.png)
