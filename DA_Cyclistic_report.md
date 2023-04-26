@@ -152,12 +152,16 @@ For this data, histograms and bar graphs were chosen as the type of plots that w
 ![alt text](images\daytime_freq_bothusers.png)
 * Annual members take their trips either in the morning or afternoon more frequently. Casual riders tend to mantain the usage of Cyclistic's service in the morning, afternoon and evening.
 
-![alt text](images\bike_freq_bothusers.png)
+![Image](images\bike_freq_bothusers.png)
 * The electric bike is the most used out of the 3 possible types offered. Docked bike has only been used by casual riders.
 * Annual members have a shorter traveled time compared to the casual members.
 
 
 # **6. ACT**
+
+
+
+
 
 
 
