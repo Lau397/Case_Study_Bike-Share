@@ -147,52 +147,50 @@ For this data, histograms and bar graphs were chosen as the type of plots that w
 
 ## Key findings 📊🔍
 
-![Image](/images/users_freq_users.png)
+![Image](images/users_freq_users.png)
 * **To consider: The amount of the data registered in the dataframe for annual members is greater than for the casual riders, which is 76% and 24% repectively.**
 
-![Image](/images/daytime_freq_bothusers.png)
+![Image](images/daytime_freq_bothusers.png)
 * Annual members take their trips either in the morning or afternoon more frequently. Casual riders tend to mantain the usage of Cyclistic's service in the morning, afternoon and evening pretty much evenly.
 
-![Image](/images/bike_freq_bothusers.png)
+![Image](images/bike_freq_bothusers.png)
 * The electric bike is the most used out of the 3 possible types offered. Docked bike has only been used by casual riders.
 
-![Image](/images/daymonth_freq_bothusers.png)
+![Image](images/daymonth_freq_bothusers.png)
 * The last day of the month, on average, has a higher frequency for both type of customers. For the other days of the month it mantains a constant behaviour with some peaks by the beginning of the month. 
 In general, however, we can tell that the usage remains constant, except for the last day of the month.
 
-![Image](/images/dayweek_freq_bothusers.png)
+![Image](images/dayweek_freq_bothusers.png)
 * We can see that the peak day is around the middle of the week, wednesday. Thursday is also very close to the highest peak, for both, annual members and casual.  
 
-![Image](/images/distance_freq_bothusers.png)
+![Image](images/distance_freq_bothusers.png)
 * Both type of customers travel a distance of ~2km or less.
 
-![Image](/images/timelen_vs_users.png)
+![Image](images/timelen_vs_users.png)
 * Annual members have a shorter traveled time compared to the casual members.
 
-![Image](/images/timelen_vs_bikes_annual.png)
+![Image](images/timelen_vs_bikes_annual.png)
 * For the trips registered for the annual members, the time length for electric bikes was 8hrs in total, whilst classic bikes took around 26hrs. That is, a ratio of 3.25 times.
 
-![Image](/images/timelen_vs_bikes_casual.png)
+![Image](images/timelen_vs_bikes_casual.png)
 * For the trips registered for the casual customers, the time length for docked bikes was 280hrs in total, whilst classic bikes took around 26hrs and electric bikes 8hrs.
 
-![Image](/images/dayweek_vs_timelen.png)
+![Image](images/dayweek_vs_timelen.png)
 * Mondays and wednesdays are the days in which riders may take more time to transport. We can clearly see this happening for saturdays and sundays as well.
 
-![Image](/images/distance_bothusers.png)
+![Image](images/distance_bothusers.png)
 * The distance traveled by all customers is nearly the same.
 
-![Image](/images/timelen_vs_users.png)
+![Image](images/timelen_vs_users.png)
 * Casual users spend more time in their bike trips (~275hrs) and annual users spend less time (~31hrs). That is, annual users spend less time in their transportation compared to casulal users by a ratio of ~9 times.
 
 
 # **6. ACT**
 
 ## Conclusions 🖊
-**✔**  Morning and evening are the times of the day where the customers use the service the most. This makes sense since generally, people tend to have a work schedule from 9 to 5 and hence, they use Cyclistic as their transportation means so they leave home in the morning and return in the evening.  
+**✔**  Mornings and evenings are the times of the day where the customers use the service the most. This makes sense since generally, people tend to have a work schedule from 9 to 5 and hence, they use Cyclistic as their transportation means so they leave home in the morning and return by 5 p.m. or so.  
 
-**✔**  The docked bike takes longer than the classic bikes. Being the electric bike the fastest and most preferred by all customers with a mean of 14 minutes of time length in their trips. Making the electric bike quite ideal for transportation to workplaces.     
-
-**✔**  In general, both type of customers preferred the electric bikes. The next preferred is the classic bike, especially by the annual members.  
+**✔**  The docked bike takes longer than the classic bikes. Being the electric bike the fastest and most preferred by all customers with a mean of 9 minutes of time length in their trips. Making the electric bike quite ideal for transportation to workplaces and the most preferred by both type of customers. The next preferred is the classic bike, especially by the annual members.  
 
 **✔**  In general, all users prefer electric bikes over the classic bike and docked bike, a reason for this may be because they require more time and energy from the customer to transport themselves in.  
 
@@ -211,6 +209,9 @@ In general, however, we can tell that the usage remains constant, except for the
 For this reason, 
 
 ## Next Steps
+⏩   
+⏩   
+⏩   
 
 
 ***What else could we consider for a deeper analysis?***
