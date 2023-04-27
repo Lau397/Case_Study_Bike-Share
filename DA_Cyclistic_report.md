@@ -187,19 +187,21 @@ In general, however, we can tell that the usage remains constant, except for the
 
 # **6. ACT**
 
-## Conclusions 🖊
-**✔**  Mornings and evenings are the times of the day where the customers use the service the most. This makes sense since generally, people tend to have a work schedule from 9 to 5 and hence, they use Cyclistic as their transportation means so they leave home in the morning and return by 5 p.m. or so.  
+So...how do annual members and casual riders use Cyclistic bikes diferently? We'll review some differences in the following conclusions.
+
+## Conclusions ✏
+**✔**  Mornings and evenings are the times of the day where the customers use the service the most. This makes sense since generally, people tend to have a work schedule from 9 to 5. 
 
 **✔**  The docked bike takes longer than the classic bikes. Being the electric bike the fastest and most preferred by all customers with a mean of 9 minutes of time length in their trips. Making the electric bike quite ideal for transportation to workplaces and the most preferred by both type of customers. The next preferred is the classic bike, especially by the annual members.  
 
-**✔**  In general, all users prefer electric bikes over the classic bike and docked bike, a reason for this may be because they require more time and energy from the customer to transport themselves in.  
+**✔**  In general, all users prefer electric bikes over the classic bike and docked bike, a reason for this may be because these two require more time and energy from the customer to transport themselves in.  
 
 **✔**  All options offered by Cyclistic are sustainable and the electric bike is the fastest option offered, being nearly 3 times faster than classic bikes.   
 
 **✔**  The docked bike takes longer time length in their trips, we could say this is the slowest option out of the 3 available.    
 
 **✔**  We also found that casual users tend to use the service in the afternoon. Docked bikes were found to be only used by casual users and plus, docked bikes are mostly use in the afternoon as well so, we can say that casual users may tend to use the service for hanging out every now and then more frequently compared to annual members. Why?:  
-* If they're not in a hurry, naturally, they would choose the docked or classic bike.   
+* If they're not in a hurry, naturally, they would choose the docked or classic bike (you don't want to get too sweaty for work, an appointment.. or date? Do you?👀).   
 * The frequency of the use of the service is more constantly maintained throughout the week compared to annual members that have a more pronounced peak by the middle of the week, so casual users may use this service for -precisely- more casual occasions.   
 * As found in the previous data analysis, casual users tend to have more time consuming trips
 
@@ -209,6 +211,7 @@ In general, however, we can tell that the usage remains constant, except for the
 For this reason, 
 
 ## Next Steps
+My top three recommendations:
 ⏩   
 ⏩   
 ⏩   
