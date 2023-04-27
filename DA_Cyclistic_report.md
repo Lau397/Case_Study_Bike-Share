@@ -92,7 +92,7 @@ The analysis began with a data study as detailed as possible, through the statis
 
 Comparisons were made through statistics of features. The results are as follows:
 
-### **4.1. Comparing between type of customers versus time length***
+### **4.1. Comparing between type of customers versus time length**
 * On average, customers have a traveled time of:
     - Casual users = 21m 24.74s 
     - Annual members = 09m 46.51s
@@ -101,7 +101,7 @@ Comparisons were made through statistics of features. The results are as follows
     - Electric bikes = 09m 46.51s
     - Classic bikes = 14m 18.06s
     - Docked bikes = 02h 12m 22.62s
-### **4.3. Comparing between type of customers versus time of the day***
+### **4.3. Comparing between type of customers versus time of the day**
 * The most frequent time of the day where customers used Cyclistic:
     - Casual users = Afternoon 
     - Annual members = Morning
@@ -110,7 +110,7 @@ Comparisons were made through statistics of features. The results are as follows
     - Electric bikes = Morning
     - Classic bikes = Morning
     - Docked bikes = Afternoon
-### **4.5. Comparing between type of customers versus day of the week***
+### **4.5. Comparing between type of customers versus day of the week**
 Here, 0 is Monday and 6 is Sunday
 * On average, the day of the week where each bike is more frequent to be used by customers is:
     - Casual users = 2.96   (Wednesday~Thursday)
@@ -121,7 +121,7 @@ Here, 0 is Monday and 6 is Sunday
     - Electric bikes = 2.75 (Wednesday~Thursday)
     - Classic bikes = 2.71  (Wednesday~Thursday)
     - Docked bikes = 3.17   (Thursday)
-### **4.7. Comparing between type of customers versus day of the month***
+### **4.7. Comparing between type of customers versus day of the month**
 * On average, the day of the month where each bike is more frequent to be used by customers is:
     - Casual users = 16.45   (By the middle of the month, 3rd week)
     - Annual members = 16.31 (By the middle of the month, 3rd week)
@@ -145,7 +145,7 @@ At this point, we can tell a difference already between the type of customers an
 # **5. SHARE**
 For this data, histograms and bar graphs were chosen as the type of plots that will represent the results, due to the fact that we have categorical features and is easier to make comparisons between features with this type of plot. 
 
-## Key findings 🔍
+## Key findings 📊🔍
 
 ![Image](/images/users_freq_users.png)
 * **To consider: The amount of the data registered in the dataframe for annual members is greater than for the casual riders, which is 76% and 24% repectively.**
@@ -175,6 +175,9 @@ In general, however, we can tell that the usage remains constant, except for the
 ![Image](/images/timelen_vs_bikes_casual.png)
 * For the trips registered for the casual customers, the time length for docked bikes was 280hrs in total, whilst classic bikes took around 26hrs and electric bikes 8hrs.
 
+![Image](/images/dayweek_vs_timelen.png)
+* Mondays and wednesdays are the days in which riders may take more time to transport. We can clearly see this happening for saturdays and sundays as well.
+
 ![Image](/images/distance_bothusers.png)
 * The distance traveled by all customers is nearly the same.
 
@@ -187,11 +190,7 @@ In general, however, we can tell that the usage remains constant, except for the
 ## Conclusions 🖊
 **✔**  Morning and evening are the times of the day where the customers use the service the most. This makes sense since generally, people tend to have a work schedule from 9 to 5 and hence, they use Cyclistic as their transportation means so they leave home in the morning and return in the evening.  
 
-**✔**  The docked bike takes longer than the classic bikes. Being the electric bike the fastest with a mean of 14 minutes of time length in their trips. Making the electric bike quite ideal for transportation to workplaces.    
-
-**✔**  On average, casual users have a greater traveled time length by 2 times (~21 mins), compared to annual members (~10 mins). This could be depending on the distance traveled and/or the type of bike they used.  
-
-**✔**  Casual users tend to have more time consuming trips, this may be influented since we also found that only the casual customers used docked bikes.   
+**✔**  The docked bike takes longer than the classic bikes. Being the electric bike the fastest and most preferred by all customers with a mean of 14 minutes of time length in their trips. Making the electric bike quite ideal for transportation to workplaces.     
 
 **✔**  In general, both type of customers preferred the electric bikes. The next preferred is the classic bike, especially by the annual members.  
 
@@ -201,14 +200,15 @@ In general, however, we can tell that the usage remains constant, except for the
 
 **✔**  The docked bike takes longer time length in their trips, we could say this is the slowest option out of the 3 available.    
 
-**✔**  On average, users traveled around 1.83km or less.   
+**✔**  We also found that casual users tend to use the service in the afternoon. Docked bikes were found to be only used by casual users and plus, docked bikes are mostly use in the afternoon as well so, we can say that casual users may tend to use the service for hanging out every now and then more frequently compared to annual members. Why?:  
+* If they're not in a hurry, naturally, they would choose the docked or classic bike.   
+* The frequency of the use of the service is more constantly maintained throughout the week compared to annual members that have a more pronounced peak by the middle of the week, so casual users may use this service for -precisely- more casual occasions.   
+* As found in the previous data analysis, casual users tend to have more time consuming trips
 
 **✔**  From the frequency seen for the features day of the week and day of the month, we can see a lot of information included for the middle of the month and middle of the week. That is, that people may have a tendency of using the service during business days more often and with the purpose of some work/responsibilities related duties.    
 
 **✔**  All customers have pretty much the same traveled distance, however, the time they spent in their trips is significantly different. We saw, that the majority of them prefered electric bikes, however, annual members don't use docked bikes. Meanwhile, casual users do use the docked bike. This being the only difference between them , we can see that this preference impact greatly in the results.
-For this reason, we can say that casual users may tend to use the service for hanging out every now and then more frequently compared to annual members. Why?:  
-        - If they're not in a hurry, naturally, they would choose the docked or classic bike.   
-        - The frequency of the use of the service is more constantly maintained throughout the week compared to annual members that have a more pronounced peak by the middle of the week, so casual users may use this service for -precisely- more casual occasions.  
+For this reason, 
 
 ## Next Steps
 
@@ -216,4 +216,5 @@ For this reason, we can say that casual users may tend to use the service for ha
 ***What else could we consider for a deeper analysis?***
 * We saw in the beginning of the analysis that there is way more data available for annual members than casual. It'd be ideal to have at least an even amount of information to consider from both types and get to know more the behaviour/tendencies from both.
 * Pricing information: We don't know exactly what the customers are paying for the service. Does the bike type influence on the price of the service? Does the time of the day change the price? If a customer use the service by night, is it cheaper, more expensive, or the same?  Of course customers look for an opportunity to have a quality service for a good price, so it'd be a good idea to know more information about it to propose more decisions that can call their attention from casual user and the public.
-* Benefit information: Is there any limited use for the customers? What is the added value that annual users get? What is the difference between the benefits that customers get?
+* Condition information: Is there any limited use for the customers? Distance limitation? Time limitation?
+* Benefit information: What is the added value that annual users get? What is the difference between the benefits that customers get?
