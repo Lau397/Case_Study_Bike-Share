@@ -194,19 +194,25 @@ So...how do annual members and casual riders use Cyclistic bikes diferently? We'
 
 **✔**  Mornings and evenings are the times of the day where the customers use the service the most. This makes sense since generally, people tend to have a work schedule from 9 to 5. 
 
-**✔**  The docked bike takes longer than the classic bikes. Being the electric bike the fastest by 3 times compared to classic bikes, and most preferred by all customers with a mean of 9 minutes of time length in their trips. Making the electric bike quite ideal for transportation to workplaces and the most preferred by both type of customers. The next preferred is the classic bike, especially by the annual members.  
+**✔**  The docked bike takes longer than the classic bikes. Being the electric bike the fastest by 3 times compared to classic bikes, and with a mean of 9 minutes of time length in their trips. Making the electric bike quite ideal for transportation to workplaces and the most preferred by both type of customers. The next preferred is the classic bike, especially by the annual members.  
 
-**✔**  The docked bike takes longer time length in their trips, we could say this is the slowest option out of the 3 available.    
+**✔**  The docked bike has a longer time length in their trips, we could say this is the slowest option out of the 3 available.    
 
-**✔**  We also found that casual users tend to use the service in the afternoon. Docked bikes were found to be only used by casual users and plus, docked bikes are mostly use in the afternoon as well so, we can say that casual users may tend to use the service for hanging out every now and then more frequently compared to annual members. Why?:  
+**✔**  We also found that casual users tend to use the service in the afternoon. Docked bikes were found to be only used by casual users and plus, docked bikes are mostly used in the afternoon as well so, we can say that casual users may tend to use the service for hanging out every now and then more frequently compared to annual members. Why?:  
 * If they're not in a hurry, naturally, they would choose the docked or classic bike. On the contrary, if that's not the case, you'd choose the electric bike most likely (because you don't want to get too sweaty for work, an appointment... or date? Do you?👀).   
 * The use frequency of the service is more constantly maintained throughout the week compared to annual members that have a more pronounced peak by the middle of the week, so casual users may use this service for -precisely- more casual occasions.   
-* As found in the previous data analysis, casual users tend to have more time consuming trips. Casual users' highest frequency peak is by the middle of the week with a value of around 11000 and even tends to mantain the use of the service in the weekend with a frequency value of ~7000 to ~8000, so compared to that, there is no big gap as there is in the annual members' graph where the peak at nearly 40000 drops to nearly 17000, diminishing by a little over 50%.  
+* As found in the previous data analysis, casual users tend to have more time consuming trips. Casual users' highest frequency peak is by the middle of the week with a value of around 11000 and even tends to mantain the use of the service in the weekend with a frequency value of ~7000 to ~8000, so compared to that, there is no big gap as there is in the annual members' graph where the peak at nearly 40000 drops to nearly 17000, decreasing by a little over 50%.  
 
-**✔**  All customers have pretty much the same traveled distance, however, the time they spent in their trips is significantly different. We saw, that the majority of them prefered electric bikes, however, annual members don't use docked bikes. Meanwhile, casual users do use the docked bike. This being the only difference between them , we can see that this preference impact greatly in the results.
-For this reason, 
+**✔**  All customers have pretty much the same traveled distance, however, the time they spent in their trips is significantly different. We saw, that the majority of them prefered electric bikes. Having nearly the same distance traveled but very different time lengths, we can tell the use of the docked bike by the casual users did impact greatly on these last results.    
+
+**✔**  As found in our analysis as well, we noticed that even though there are annual members in the data, quite the majority of them used the service for around a day, with a few exceptions (there was an 11day trip time length), as the mean of it was 13 minutes only.   
+
+
+
+
 
 ## Next Steps
+
 My top three recommendations:
 ⏩   
 ⏩   
