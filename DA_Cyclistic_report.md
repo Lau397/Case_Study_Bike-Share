@@ -190,15 +190,11 @@ In general, however, we can tell that the usage remains constant, except for the
 So...how do annual members and casual riders use Cyclistic bikes diferently? We'll review some differences in the following conclusions.
 
 ## Conclusions ✏
-**✔**  From the frequency seen for the features day of the week and day of the month, we can see a lot of information included for the middle of the month and middle of the week. That is, that people in general, may have a tendency of using the service during business days more often and with the purpose of some work/responsibilities related duties.    
+**✔**  From the frequency seen for the features day of the week and day of the month, we can see a higher frequency by the middle of the month and middle of the week. That is, that people in general, may have a tendency of using the service during business days more often and we can infere that this is with the purpose of some work/responsibilities related duties.    
 
 **✔**  Mornings and evenings are the times of the day where the customers use the service the most. This makes sense since generally, people tend to have a work schedule from 9 to 5. 
 
-**✔**  The docked bike takes longer than the classic bikes. Being the electric bike the fastest and most preferred by all customers with a mean of 9 minutes of time length in their trips. Making the electric bike quite ideal for transportation to workplaces and the most preferred by both type of customers. The next preferred is the classic bike, especially by the annual members.  
-
-**✔**  In general, all users prefer electric bikes over the classic bike and docked bike, a reason for this may be because these two require more time and energy from the customer to transport themselves in.  
-
-**✔**  All options offered by Cyclistic are sustainable and the electric bike is the fastest option offered, being nearly 3 times faster than classic bikes.   
+**✔**  The docked bike takes longer than the classic bikes. Being the electric bike the fastest by 3 times compared to classic bikes, and most preferred by all customers with a mean of 9 minutes of time length in their trips. Making the electric bike quite ideal for transportation to workplaces and the most preferred by both type of customers. The next preferred is the classic bike, especially by the annual members.  
 
 **✔**  The docked bike takes longer time length in their trips, we could say this is the slowest option out of the 3 available.    
 
