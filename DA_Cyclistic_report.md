@@ -221,7 +221,8 @@ So...how do annual members and casual riders use Cyclistic bikes diferently? We'
 🔍  *"Dockless bikes have a habit of clogging up the busiest squares and thoroughfares, which is just a symptom of the reality that dockless bikes generally don't travel very far. It makes sense that these bikes would gather around the most popular areas in a city, but that creates issues for those who have a further commute."*      (Waldman, N., 2020)    
 🔍  *"Simply put, if a bike-share is being considered mainly for the benefit of those who already have access to city centers, dockless is the fastest and cheapest way to go. However, if the goal is to give more people access to public transit, you need to ensure those people have access to bikes - and docks are the easiest way to ensure this happens."*       (Waldman, N., 2020)   
 
-Having pointed out all this information above, we can say that:     
+With this in mind, here are some suggestions:   
+
 ⏩   It'd be a good idea to promote electric and docked bikes a bit more often, mainly for security reasons, both the customer and the company inventory. Even though dockless can be more easy for customers, their safety is first and of course that is a non-negotiable if customers are consciouss enough about this part when using the service.   
 
 ⏩   As stated above, bike-sharing can be a good idea to implement it as a public transit, thus, having more people with access to it. If we have people wanting to use the service using either docked or electric bikes as public transit with a compatible price, people will be more inclined to have annual memberships rather than single-ride or full-day passes only.    
