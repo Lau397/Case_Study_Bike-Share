@@ -184,11 +184,11 @@ In general, however, we can tell that the usage remains constant, except for the
 ![Image](images/timelen_vs_users.png)
 * Casual users spend more time in their bike trips (~275hrs) and annual users spend less time (~31hrs). That is, annual users spend less time in their transportation compared to casulal users by a ratio of ~9 times.
 
-![Image](dayweektimelen_vs_members.png)
+![Image](mages/dayweektimelen_vs_members.png)
 * Annual members mantain a constant use of Cyclistic's service throughout the week.
 
 
-![Image](dayweektimelen_vs_users.png)
+![Image](mages/dayweektimelen_vs_users.png)
 * Casual members tend to use the service on mondays, wednesdays, saturdays and sundays.
 
 # **6. ACT**
@@ -221,11 +221,11 @@ So...how do annual members and casual riders use Cyclistic bikes diferently? We'
 🔍  *"Dockless bikes have a habit of clogging up the busiest squares and thoroughfares, which is just a symptom of the reality that dockless bikes generally don't travel very far. It makes sense that these bikes would gather around the most popular areas in a city, but that creates issues for those who have a further commute."*      (Waldman, N., 2020)    
 🔍  *"Simply put, if a bike-share is being considered mainly for the benefit of those who already have access to city centers, dockless is the fastest and cheapest way to go. However, if the goal is to give more people access to public transit, you need to ensure those people have access to bikes - and docks are the easiest way to ensure this happens."*       (Waldman, N., 2020)   
 
-Having pointed out all this information above, we can say that:
-⏩   It'd be a good idea to promote electric and docked bikes a bit more often, mainly for security reasons, both the customer and the company inventory. Even though dockless can be more easy for customers, their safety is first and of course that is a non-negotiable if customers are consciouss enough about this part when using the service.
-⏩   As stated above, bike-sharing can be a good idea to implement it as a public transit, thus, having more people with access to it. If we have people wanting to use the service using either docked or electric bikes as public transit with a compatible price, people will be more inclined to have annual memberships rather than single-ride or full-day passes only.
-⏩   We saw that casual users tend to ride more every now and then and is not as consistent as annual members. In order to attract more people to annual memeberships and to keep those that are members already and to promote a healthier active lisfestyle, we (Cyclistic) can start promoting to them in general, that becoming an annual member can get them a better price for the weekends and one day (the least concurred) in the other 5 days to motivate customers to use the service more often.
-⏩   Lastly, it'd be a good idea as well to promote an activity at an specific hour early in the mornings or in the nights (say, ride for a distance of 1km between this and this time in the morning) that involves a system of points, and if they accomplish that goal they'll accumulate points that will later on turn into a discount of their monthly fee from them or one of their friends.
+Having pointed out all this information above, we can say that:     
+⏩   It'd be a good idea to promote electric and docked bikes a bit more often, mainly for security reasons, both the customer and the company inventory. Even though dockless can be more easy for customers, their safety is first and of course that is a non-negotiable if customers are consciouss enough about this part when using the service.   
+⏩   As stated above, bike-sharing can be a good idea to implement it as a public transit, thus, having more people with access to it. If we have people wanting to use the service using either docked or electric bikes as public transit with a compatible price, people will be more inclined to have annual memberships rather than single-ride or full-day passes only.    
+⏩   We saw that casual users tend to ride more every now and then and is not as consistent as annual members. In order to attract more people to annual memeberships and to keep those that are members already and to promote a healthier active lisfestyle, we (Cyclistic) can start promoting to them in general, that becoming an annual member can get them a better price for the weekends and one day (the least concurred) in the other 5 days to motivate customers to use the service more often.     
+⏩   Lastly, it'd be a good idea as well to promote an activity at an specific hour early in the mornings or in the nights (say, ride for a distance of 1km between this and this time in the morning) that involves a system of points, and if they accomplish that goal they'll accumulate points that will later on turn into a discount of their monthly fee from them or one of their friends.      
 
 
 ***What else could we consider for a deeper analysis?***
